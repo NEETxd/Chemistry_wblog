@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(235, 235, 235);
+    color: rgb(47, 79, 79);
+    height: 100%;
+    
+}
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightskyblue;
+    justify-content: space-between;
+    padding: 15px;
+    opacity: 0.5;
+}
+.header-mail {
+    
+    
+}
+.header-mail a {
+    color: black;
+    font-size: 18px;
+    
+    
+}
+.header-location span {
+    color: black;
+    font-size: 18px;
+}
+#main {
+    margin-top: 60px;
+    
+}
+.main-background {
+    background-color: lightskyblue;
+    background-image: url(../images/background-hero.png);
+    background-size:cover;
+    position: absolute;
+    background-position: 50% 55%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+    
+}
+.main-background-blog {
+    background-color: lightskyblue;
+    background-image: url(../images/background-hero.png);
+    background-size:cover;
+    position: absolute;
+    background-position: 50% 55%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+.main-hero {
+    padding: 80px;
+}
+.main-hero-text {
+    /* padding: 173px 76px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.main-hero-img{
+    /* padding: 50px; */
+}
+h1 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+.teacher-info {
+    padding: 80px;
+}
+.teacher-info p {
+    font-size: 15px;
+}
+.background-body {
+    background-image: url(../images/background-hero.png);
+    background-size:cover;
+    position: fixed;
+    background-position: 50% 0%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+}
+.background-body-blog {
+    background-image: url(/..images/background-main.jpg);
+    background-size:cover;
+    position: fixed;
+    background-position: 50% 0%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+}
+.community-msg h4 {
+    font-size: 70px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+}
+#vk_groups {
+    position: relative;
+    margin: auto;
+}
+.blog img {
+    width: 200px;
+    height: 200px;
+}
+#footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: revert;
+    justify-content: space-between;
+    padding: 15px;
+    opacity: 0.5;
+}
